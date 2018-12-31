@@ -7,11 +7,23 @@ collections:
   - label: "about"
     name: "about"
     files:
-      - label: "mission"
-        name: "mission"
+      - name: "mission"
         file: "content/pages/about/mission.md"
         extension: "md"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: "constitution"
+        file: "content/pages/about/constitution.md"
+        extension: "md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: "projects"
+        file: "content/pages/about/projects.md"
+        extension: "md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: "support"
+        file: "content/pages/about/support.md"
+        extension: "md"
+        fields:
           - {label: "Body", name: "body", widget: "markdown"}
