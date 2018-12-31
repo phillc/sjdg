@@ -1,7 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master
-
+  name: gitlab
+  repo: spyyderz/sjdg
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
@@ -10,7 +9,8 @@ collections:
     files:
       - label: "mission"
         name: "mission"
-        file: "src/pages/about/mission.md"
+        file: "content/pages/about/mission.md"
+        extension: "md"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
