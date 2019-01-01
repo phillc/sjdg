@@ -1,3 +1,6 @@
 const withSass = require('@zeit/next-sass')
-module.exports = withSass({
+const withMDX = require('@zeit/next-mdx')({
+  extension: /\.(md|mdx)$/
 })
+
+module.exports = withMDX(withSass({}))
