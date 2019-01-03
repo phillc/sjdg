@@ -1,10 +1,11 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Section from '../components/section'
 
-export default () =>
+export default ({data}) =>
   <Layout title="About">
     <Header sections={
       { "mission": "Mission",
@@ -13,6 +14,12 @@ export default () =>
         "support": "Support" }} />
 
     <Section id="mission" title="Mission">
+			<div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}></div>
+			<p>{data.allMarkdownRemark.edges[0].node.html}</p>
+			<p>ok</p>
+			<p>{data.allMarkdownRemark.edges[0].node.fileAbsolutePath}</p>
+			<p>ok</p>
+			<p>{data.allMarkdownRemark.edges[0].node.rawMarkdownBody}</p>
       <p>We've entered the Alderaan system. Governor Tarkin, I should have expected to find you holding Vader's leash. I recognized your foul stench when I was brought on board. Charming to the last. You don't know how hard I found it signing the order to terminate your life! I surprised you had the courage to take the responsibility yourself! Princess Leia, before your execution I would like you to be my guest at a ceremony that will make this battle station operational. No star system will dare oppose the Emperor now. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers.</p>
 
       <p>Orbiting the planet at maximum velocity. The moon with the Rebel base will be in range in thirty minutes. This will be a day long remembered. It has seen the end of Kenobi and it will soon see the end of the Rebellion.</p>
@@ -69,3 +76,18 @@ export default () =>
   </Layout>
 
 
+// TODO: do the id key thing
+export const pageQuery = graphql`
+  query AboutQuery {
+		allMarkdownRemark {
+			edges {
+				node {
+					id
+					html
+					fileAbsolutePath
+					rawMarkdownBody
+				}
+			}
+		}
+	}
+`
