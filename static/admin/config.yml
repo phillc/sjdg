@@ -13,6 +13,8 @@ collections:
         extension: "md"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "test", name: "testing", widget: "hidden"}
+          - {label: "test2", name: "testinggggg", widget: "hidden", default: "asdfasdfasdf"}
       - name: "constitution"
         label: "Constitution"
         file: "content/pages/about/constitution.md"
