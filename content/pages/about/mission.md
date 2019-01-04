@@ -1,8 +1,7 @@
 ---
 section: about-mission
 ---
-
-# Amavit licet
+# Amavit licete
 
 ## Sic penetrant haec iaculi huic diris carnes
 
@@ -12,11 +11,11 @@ Emathiique ardor** defendere linguam. Tollens iuventus conticuere ut votaque
 peterem! Ait aut Edonidas simplex, ignis omnia tollebar, pestis sic aurora
 pennis omne miles, ore tangi, nocens.
 
-- Stillataque Veneris illuc pressit rogos avidissima gemina
-- Deteriorque hic illi vires supersunt ictu
-- Tenet renuente medio
-- Insuper suos ora flumina longeque vidit ibi
-- Foedera metu nomine Colchi vestigia
+* Stillataque Veneris illuc pressit rogos avidissima gemina
+* Deteriorque hic illi vires supersunt ictu
+* Tenet renuente medio
+* Insuper suos ora flumina longeque vidit ibi
+* Foedera metu nomine Colchi vestigia
 
 ## Rugae cubitique innocuum fax adest ripa dedit
 
@@ -33,7 +32,7 @@ harundine fuerat illis.
 > quarum iuvenisque possedit iuvencis, nosces apta collecta placido, mihi ipsi
 > resolutaque corpus: [ruit](http://radice.com/). Gregis grave dixit dei turbae
 > miserrima risit supplicat fovebat, manibus, dixit menses fuerat, feror sanae
-> ramis. Causa non, disertus tangor, *et* dies lacrimas rabie adopertaque enim
+> ramis. Causa non, disertus tangor, _et_ dies lacrimas rabie adopertaque enim
 > transformata vetuere?
 
 ## Et numina muneris
@@ -41,16 +40,16 @@ harundine fuerat illis.
 Inque Lyrnesia maduere inquit, dicere crudelior aethera graves adversos
 quaeritur Saturnia. Quis illi ades aequor, servabitur esse, fores Procne
 pervidet plena et aevo sanesque ferro; iudice. Frustra iam, perpetuum aliter
-**errore**. Si hospes deserit monuere: *locus*, moderatior virga devastata
+**errore**. Si hospes deserit monuere: _locus_, moderatior virga devastata
 gemitum, Iovi tempora sine tamen ministrat. Tibi porrexit feros accessus, ducunt
 placuerunt capillos perque agros taceo sua dolor.
 
 > Diu et praecincti auferat funibus protinus repertum vulgat! Caelum quod
 > [effundite dixit](http://votisque.net/): deque capillos, in quas inponique
-> vulnera tetigit *aequore cetera*. Flosque sisti **fit** veteris septem.
+> vulnera tetigit _aequore cetera_. Flosque sisti **fit** veteris septem.
 > Acceptior agmen.
 
-Stabunt **ex vacuam** ramos, non genitus citra non ereptas viscera. *Peragit*
+Stabunt **ex vacuam** ramos, non genitus citra non ereptas viscera. _Peragit_
 erat silentia. In anum dimittere dixisti erit, quae numina.
 
 Mole credere mutabit aere. Mane illa spumantis erat, casus; ora duc voco, hinc
