@@ -1,6 +1,5 @@
 backend:
-  name: gitlab
-  repo: spyyderz/sjdg
+  name: git-gateway
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
