@@ -1,81 +1,85 @@
-import { Link } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import React from 'react'
+import Img from "gatsby-image"
+import HeaderNavigation from './header-navigation'
+import HeaderCarousel from './header-carousel'
 
-const NavBarLink = ({to, children}) =>
-	<Link to={to} className="navbar-item">
-	  {children}
-	</Link>
+const sectionNavigation = (sections) => {
+	let sectionLinks = Object.entries(sections || {}).map(([ref, title]) => {
+		let href = `#${ref}`;
+		return <li key={ref}>
+			<a href={href}>
+				{title}
+			</a>
+		</li>
+	})
 
-
-const Header = ({ isFull, sections }) => {
-  let heightClass = isFull ? "is-fullheight" : "is-small"
-  let heroClass = `hero is-success ${heightClass} is-bold`
-  let sectionHeaders = Object.entries(sections || {}).map(([ref, title]) => {
-    let href = `#${ref}`;
-    return <li key={ref}>
-             <a href={href}>
-               {title}
-             </a>
-           </li>
-  })
-
-  return (<section className={heroClass}>
-    <div className="hero-head">
-      <header className="navbar">
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
-							<img src="/static/images/sjdg-logo-small-flipped.png" alt="Logo" />
-							<h1>South Jersey Disc Golf</h1>
-            </Link>
-            <span className="navbar-burger burger" data-target="navbarMenuHeroC">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroC" className="navbar-menu is-active">
-            <div className="navbar-end">
-						  <NavBarLink to="/">Home</NavBarLink>
-						  <NavBarLink to="/about">About</NavBarLink>
-						  <NavBarLink to="/courses">Courses</NavBarLink>
-						  <NavBarLink to="/events">Events</NavBarLink>
-						  <NavBarLink to="/contact">Contact</NavBarLink>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-
-    <div className="hero-body">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-half has-text-right">
-            <h1 className="title">
-              SJDG
-            </h1>
-            <h2 className="subtitle">
-              Some catch phrase
-            </h2>
-          </div>
-          <div className="column header-logo has-text-centered">
-            <img src="/static/images/sjdg-logo-small-flipped.png" alt="logo" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="hero-foot">
-      <nav className="tabs is-boxed is-fullwidth">
-        <div className="container">
-          <ul>
-            { sectionHeaders }
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </section>)
+	return <div className="hero-foot">
+		<nav className="tabs is-boxed is-fullwidth">
+			<div className="container">
+				<ul>
+					{ sectionLinks }
+				</ul>
+			</div>
+		</nav>
+	</div>
 }
 
 
-export default Header
+const HeaderBody = () => {
+	return <div className="header-body hero-body">
+		<div className="container">
+			<div className="columns">
+				<div className="column is-half has-text-right">
+					<h1 className="title">
+						SJDG
+					</h1>
+					<h2 className="subtitle">
+						Some catch phrase
+					</h2>
+				</div>
+				<div className="column is-one-fifth has-text-centered">
+					<div className="header-logo">
+						<StaticQuery
+							query={graphql`
+								query {
+									logo: file(relativePath: { eq: "logo.png" }) {
+										childImageSharp {
+											fluid(maxWidth: 600) {
+												...GatsbyImageSharpFluid_noBase64
+											}
+										}
+									}
+								}
+							`}
+							render={data => (
+								<Img fluid={data.logo.childImageSharp.fluid} critical={true} />
+							)}
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+const FullHeader = ({data}) => {
+	return <section className="hero full-header is-fullheight is-primary">
+		<HeaderNavigation />
+		<HeaderBody />
+		<HeaderCarousel />
+	</section>
+}
+
+
+const StandardHeader = ({ sections }) => {
+	return <section className="hero is-small is-primary">
+		<HeaderNavigation />
+		<HeaderBody />
+		{ sectionNavigation(sections) }
+	</section>
+}
+
+export default StandardHeader
+export { FullHeader }
+

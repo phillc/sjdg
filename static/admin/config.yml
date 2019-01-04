@@ -13,21 +13,25 @@ collections:
         extension: "md"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Section", name: "section", widget: "hidden"}
       - name: "constitution"
         label: "Constitution"
         file: "content/pages/about/constitution.md"
         extension: "md"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Section", name: "section", widget: "hidden"}
       - name: "projects"
         label: "Projects"
         file: "content/pages/about/projects.md"
         extension: "md"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Section", name: "section", widget: "hidden"}
       - name: "support"
         label: "Support"
         file: "content/pages/about/support.md"
         extension: "md"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Section", name: "section", widget: "hidden"}

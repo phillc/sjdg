@@ -1,88 +1,102 @@
 @import "~bulma/sass/utilities/initial-variables";
 
-//$grey:         #888;
-//$grey-light:   #aaa;
-//$grey-lighter: #dbdbdb;
-
-//$orange:       #eea170;
-//$yellow:       #FFCE67;
-//$green:        #56cc90;
-//$cyan:         #6CC3D5;
-//$blue:         #6D90D6;
-//$red:          #e07f7d;
-//$turquoise:    #6abfb0;
-
-//$danger: $orange;
-
-//$text: darken($grey, 10);
-//$subtitle-color: $grey;
-
-//$size-1: 2.5rem;
-//$size-2: 2rem;
-//$size-3: 1.75rem;
-//$size-4: 1.5rem;
-//$size-5: 1.25rem;
-//$size-6: 15px;
-//$size-7: 0.75rem;
-
-//$radius-small: 4px;
-//$radius: 6px;
-//$radius-large: 8px;
-
-//$family-heading: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-
-//$navbar-background-color: $turquoise;
-//$navbar-item-color: rgba(#fff, 0.75);
-//$navbar-item-hover-color: #fff;
-//$navbar-item-active-color: #fff;
-//$navbar-item-hover-background-color: rgba(#000, 0.1);
-//$navbar-dropdown-arrow: $navbar-item-color;
-
-//$bulmaswatch-import-font: true !default;
-
-//$box-shadow: 0 0 0 1px $grey-lighter;
+$primary: #76B073;
+$body-background-color: #FAF6FC;
 
 @import '~bulma/bulma';
+$accent: #B0A496;
+
+.header-navigation {
+	.header-link {
+		padding-bottom: 3px;
+
+		&:hover {
+			background-color: inherit !important;
+			padding-bottom: 0;
+			border-bottom: 3px solid $grey;
+		}
+	}
+	.header-link-active {
+		padding-bottom: 0;
+		border-bottom: 3px solid #FFF;
+	}
+}
+
+.full-header {
+	height: 100vh;
+	overflow: hidden;
+	.header-body {
+		z-index: 10;
+	}
+  .header-carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .header-carousel-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    height: 100%;
+    width: 100%;
+		background-image: radial-gradient(
+			ellipse farthest-corner at right bottom,
+			transparent 10%,
+			$primary 80%);
+  }
+}
+
+.header-logo {
+	//width: 25%;
+	//height: 35vh;
+	//position: relative;
+}
 
 //.navbar-brand h1 {
-  //padding-left: 0.5rem;
-  //font-weight: bold;
+//padding-left: 0.5rem;
+//font-weight: bold;
 //}
 
 //.header-logo {
-  //img {
-    //height: 35vh;
-    //width: auto;
-  //}
+//img {
+//height: 35vh;
+//width: auto;
+//}
 //}
 
 //.colored-section {
-  //border-top: 25px solid $grey;
-  //padding-top: 5rem;
-  //padding-bottom: 5rem;
-  //min-height: 65vh;
+//border-top: 25px solid $grey;
+//padding-top: 5rem;
+//padding-bottom: 5rem;
+//min-height: 65vh;
 
-  //h2 {
-  //}
+//h2 {
+//}
 
-  //.section-main {
-    //border-left: 4px solid $blue;
-    //padding-left: 2rem;
+//.section-main {
+//border-left: 4px solid $blue;
+//padding-left: 2rem;
 
-    //p {
-      //padding-bottom: 2rem;
-    //}
-  //}
+//p {
+//padding-bottom: 2rem;
+//}
+//}
 //}
 //.colored-section-1 {
-  //background-image: linear-gradient(165deg, $cyan 44%, $blue 110%);
-  //border-top: 25px solid $grey;
-  //min-height: 50vh;
-  //color: #FFF;
+//background-image: linear-gradient(165deg, $cyan 44%, $blue 110%);
+//border-top: 25px solid $grey;
+//min-height: 50vh;
+//color: #FFF;
 //}
 //.colored-section-2 {
-  //background-image: linear-gradient(165deg, $blue 44%, $cyan 110%);
-  //border-top: 25px solid $grey;
-  //min-height: 50vh;
-  //color: #FFF;
+//background-image: linear-gradient(165deg, $blue 44%, $cyan 110%);
+//border-top: 25px solid $grey;
+//min-height: 50vh;
+//color: #FFF;
 //}

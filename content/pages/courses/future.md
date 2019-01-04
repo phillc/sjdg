@@ -1,5 +1,5 @@
 ---
-section: about-mission
+section: courses-future
 ---
 
 # Amavit licet

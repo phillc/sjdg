@@ -1,11 +1,11 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Header from '../components/header'
+import { FullHeader } from '../components/header'
 
 const IndexPage = () => (
   <Layout title="Home">
-    <Header isFull={true} />
+    <FullHeader />
   </Layout>
 )
 

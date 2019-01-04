@@ -1,5 +1,5 @@
 ---
-section: about-constitution
+section: courses-doc-cramer
 ---
 
 # Mea et sua
