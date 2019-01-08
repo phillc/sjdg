@@ -10,8 +10,8 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Published", name: "published", widget: "boolean", default: false}
-      - {label: "Sort", name: "sort", widget: "number"}
+      - {label: "Published", name: "published", widget: "boolean", default: false, required: false}
+      - {label: "Sort", name: "sort", widget: "number", default: 99}
   - label: "courses"
     name: "courses"
     folder: "content/courses"
@@ -19,5 +19,5 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Published", name: "published", widget: "boolean", default: false}
-      - {label: "Sort", name: "sort", widget: "number"}
+      - {label: "Published", name: "published", widget: "boolean", default: false, required: false}
+      - {label: "Sort", name: "sort", widget: "number", default: 99}
