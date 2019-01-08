@@ -1,6 +1,7 @@
 ---
 name: Mission
 sort: 1
+published: true
 ---
 # Amavit licete
 
