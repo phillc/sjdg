@@ -5,32 +5,19 @@ public_folder: "/images/uploads"
 collections:
   - label: "about"
     name: "about"
-    files:
-      - name: "mission"
-        label: "Mission"
-        file: "content/pages/about/mission.md"
-        extension: "md"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Section", name: "section", widget: "hidden"}
-      - name: "constitution"
-        label: "Constitution"
-        file: "content/pages/about/constitution.md"
-        extension: "md"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Section", name: "section", widget: "hidden"}
-      - name: "projects"
-        label: "Projects"
-        file: "content/pages/about/projects.md"
-        extension: "md"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Section", name: "section", widget: "hidden"}
-      - name: "support"
-        label: "Support"
-        file: "content/pages/about/support.md"
-        extension: "md"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Section", name: "section", widget: "hidden"}
+    folder: "content/about"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: false}
+      - {label: "Sort", name: "sort", widget: "number"}
+  - label: "courses"
+    name: "courses"
+    folder: "content/courses"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: false}
+      - {label: "Sort", name: "sort", widget: "number"}

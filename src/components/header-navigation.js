@@ -1,7 +1,6 @@
 import { StaticQuery, graphql } from 'gatsby'
 import React from 'react'
 import { Link } from 'gatsby'
-import Img from "gatsby-image"
 
 const NavBarLink = ({to, children}) => {
 	return <Link to={to}
@@ -23,15 +22,15 @@ const HeaderNavigation = () => {
 								query {
 									logo: file(relativePath: { eq: "logo.png" }) {
 										childImageSharp {
-											fixed(height: 25) {
-												...GatsbyImageSharpFixed_noBase64
+											fixed(height: 100) {
+												...GatsbyImageSharpFixed
 											}
 										}
 									}
 								}
 							`}
 							render={data => (
-								<Img fixed={data.logo.childImageSharp.fixed} />
+                <img src={data.logo.childImageSharp.fixed.src} className="header-navigation-logo" alt="SJDG" />
 							)}
 						/>
 						<h1>South Jersey Disc Golf</h1>
@@ -47,8 +46,8 @@ const HeaderNavigation = () => {
 						<NavBarLink to="/">Home</NavBarLink>
 						<NavBarLink to="/about">About</NavBarLink>
 						<NavBarLink to="/courses">Courses</NavBarLink>
-						<NavBarLink to="/events">Events</NavBarLink>
-						<NavBarLink to="/contact">Contact</NavBarLink>
+						{/*<NavBarLink to="/events">Events</NavBarLink>*/}
+						{/*<NavBarLink to="/contact">Contact</NavBarLink>*/}
 					</div>
 				</div>
 			</div>

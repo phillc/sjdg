@@ -1,5 +1,5 @@
 ---
-section: courses-stafford-woods
+name: Stafford Woods
 ---
 
 # Indicii solum quo adyto rutilos puella quam

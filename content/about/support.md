@@ -1,5 +1,6 @@
 ---
-section: about-support
+name: Support
+sort: 4
 ---
 
 # Indicii solum quo adyto rutilos puella quam

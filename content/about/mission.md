@@ -1,5 +1,6 @@
 ---
-section: about-mission
+name: Mission
+sort: 1
 ---
 # Amavit licete
 

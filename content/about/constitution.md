@@ -1,5 +1,6 @@
 ---
-section: about-constitution
+name: Constitution
+sort: 2
 ---
 
 # Mea et sua

@@ -1,5 +1,6 @@
 ---
-section: about-projects
+name: Projects
+sort: 3
 ---
 
 # Tenent utinam tum flere corpora advertens his

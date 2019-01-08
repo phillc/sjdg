@@ -1,5 +1,5 @@
 ---
-section: courses-future
+name: Future
 ---
 
 # Amavit licet

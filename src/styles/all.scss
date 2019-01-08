@@ -1,61 +1,77 @@
+$accent-off: #B0A496;
+$accent-highlight: #C1C53F;
+$off-white: #FAF6FC;
 @import "~bulma/sass/utilities/initial-variables";
 
 $primary: #76B073;
-$body-background-color: #FAF6FC;
+$body-background-color: $off-white;
 
 @import '~bulma/bulma';
-$accent: #B0A496;
 
-.header-navigation {
-	.header-link {
-		padding-bottom: 3px;
 
-		&:hover {
-			background-color: inherit !important;
-			padding-bottom: 0;
-			border-bottom: 3px solid $grey;
+.header-container {
+	background-color: $primary;
+	.header-navigation {
+		.header-link {
+			color: $off-white;
+			font-weight: bold;
+
+			&:hover {
+				background-color: inherit;
+				color: $accent-off;
+			}
+			&.header-link-active {
+				color: $accent-highlight;
+			}
+		}
+
+
+		.header-navigation-logo {
+			margin: 0 10px;
+		}
+		h1 {
+			font-weight: bold;
+			color: $off-white;
 		}
 	}
-	.header-link-active {
-		padding-bottom: 0;
-		border-bottom: 3px solid #FFF;
-	}
-}
 
-.full-header {
-	height: 100vh;
-	overflow: hidden;
-	.header-body {
-		z-index: 10;
+	.header-logo {
+		max-height: 50vh;
+		max-width: 25%;
 	}
-  .header-carousel {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
 
-  .header-carousel-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9;
-    height: 100%;
-    width: 100%;
-		background-image: radial-gradient(
+	&.header-full {
+		height: 100vh;
+		overflow: hidden;
+		.header-body {
+			z-index: 10;
+		}
+		.header-carousel {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+		.header-carousel-overlay {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: 9;
+			height: 100%;
+			width: 100%;
+			background-image: radial-gradient(
 			ellipse farthest-corner at right bottom,
 			transparent 10%,
 			$primary 80%);
-  }
-}
+		}
+	}
 
-.header-logo {
-	//width: 25%;
-	//height: 35vh;
-	//position: relative;
+	&.header-short {
+	}
 }
 
 //.navbar-brand h1 {

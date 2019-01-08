@@ -1,5 +1,5 @@
 ---
-section: courses-doc-cramer
+name: Doc Cramer
 ---
 
 # Mea et sua
