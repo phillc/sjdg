@@ -39,7 +39,7 @@ export const pageQuery = graphql`
 	query {
 		allMarkdownRemark(
 			filter: { fileAbsolutePath: {regex: "\/content\/about/"},
-								frontmatter: { published: { eq: true } } },
+								frontmatter: { published: { eq: "true" } } },
 			sort: { order: ASC, fields: [frontmatter___sort]}
 		) {
 			edges {
