@@ -1,5 +1,5 @@
 ---
-name: Support
+title: Support
 published: false
 sort: 4
 ---

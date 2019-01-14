@@ -1,5 +1,7 @@
 ---
-name: Future
+title: Future
+sort: 99
+published: false
 ---
 
 # Amavit licet

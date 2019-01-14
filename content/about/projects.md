@@ -1,5 +1,5 @@
 ---
-name: Projects
+title: Projects
 sort: 3
 published: false
 ---
