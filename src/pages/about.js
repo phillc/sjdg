@@ -12,14 +12,14 @@ export default ({data}) => {
 	if (data.allMarkdownRemark) {
 		let edges = data.allMarkdownRemark.edges
 		let headers = edges.reduce((acc, edge) => {
-			let sectionName = edge.node.frontmatter.name
-			acc[dash(sectionName)] = sectionName
+			let sectionTitle = edge.node.frontmatter.title
+			acc[dash(sectionTitle)] = sectionTitle
 			return acc
 		}, {})
 		let sections = edges.map(edge => {
-			let sectionName = edge.node.frontmatter.name
-			let sectionId = dash(sectionName)
-			return <Section id={sectionId} title={sectionName} key={sectionId} >
+			let sectionTitle = edge.node.frontmatter.title
+			let sectionId = dash(sectionTitle)
+			return <Section id={sectionId} title={sectionTitle} key={sectionId} >
 				<div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
 			</Section>
 		})
@@ -48,7 +48,7 @@ export const pageQuery = graphql`
 					html
 					frontmatter {
 						sort
-						name
+						title
 						published
 					}
 				}
