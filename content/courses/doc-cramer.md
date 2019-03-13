@@ -1,7 +1,7 @@
 ---
 name: Doc Cramer
 sort: 2
-published: false
+public: false
 ---
 
 # Mea et sua

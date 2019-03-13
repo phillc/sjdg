@@ -1,7 +1,7 @@
 ---
 name: Stafford Woods
 sort: 2
-published: false
+public: false
 ---
 
 # Indicii solum quo adyto rutilos puella quam

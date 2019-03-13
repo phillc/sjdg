@@ -1,6 +1,6 @@
 ---
 name: Support
-published: false
+public: false
 sort: 4
 ---
 # Indicii solum quo adyto rutilos puella quam222

@@ -1,7 +1,7 @@
 ---
 name: Future
 sort: 99
-published: false
+public: false
 ---
 
 # Amavit licet

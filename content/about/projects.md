@@ -1,7 +1,7 @@
 ---
 name: Projects
 sort: 3
-published: false
+public: false
 ---
 
 # Tenent utinam tum flere corpora advertens his

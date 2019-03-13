@@ -1,5 +1,5 @@
 ---
-published: false
+public: false
 name: Mission
 sort: 1
 ---
