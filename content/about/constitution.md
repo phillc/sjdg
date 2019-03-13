@@ -1,5 +1,5 @@
 ---
-title: Constitution
+name: Constitution
 sort: 2
 published: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Future
+name: Future
 sort: 99
 published: false
 ---

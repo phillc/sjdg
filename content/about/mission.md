@@ -1,5 +1,4 @@
 ---
-title: Mission
 published: false
 name: Mission
 sort: 1
