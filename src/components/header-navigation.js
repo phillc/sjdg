@@ -43,9 +43,9 @@ const HeaderNavigation = () => {
 				</div>
 				<div id="navbarMenuHeroC" className="navbar-menu is-active">
 					<div className="navbar-end">
-						<NavBarLink to="/">Home</NavBarLink>
-						<NavBarLink to="/about">About</NavBarLink>
-						<NavBarLink to="/courses">Courses</NavBarLink>
+            <NavBarLink to="/">Home</NavBarLink>
+            {/*<NavBarLink to="/about">About</NavBarLink>*/}
+            {/*<NavBarLink to="/courses">Courses</NavBarLink>*/}
 						{/*<NavBarLink to="/events">Events</NavBarLink>*/}
 						{/*<NavBarLink to="/contact">Contact</NavBarLink>*/}
 					</div>

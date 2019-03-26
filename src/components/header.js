@@ -25,7 +25,7 @@ const sectionNavigation = (sections) => {
 }
 
 
-const HeaderBody = () => {
+const FullHeaderBody = () => {
 	return <div className="header-body hero-body">
 	<div className="container has-text-centered">
 			<StaticQuery
@@ -41,7 +41,17 @@ const HeaderBody = () => {
 					}
 				`}
 				render={data => (
-					<img src={data.logo.childImageSharp.fixed.src} className="header-logo" alt="SJDG" />
+          <>
+            <img src={data.logo.childImageSharp.fixed.src} className="header-logo" alt="SJDG" />
+            <div class="buttons is-centered">
+              <a href="https://www.facebook.com/groups/256594737725049/" class="button">
+                <span class="icon is-large">
+                  <i class="fab fa-lg fa-facebook-f"></i>
+                </span>
+                <span>Find us on Facebook</span>
+              </a>
+            </div>
+          </>
 				)}
 			/>
 		</div>
@@ -51,7 +61,7 @@ const HeaderBody = () => {
 const FullHeader = ({data}) => {
 	return <section className="hero header-container header-full is-fullheight">
 		<HeaderNavigation />
-		<HeaderBody />
+		<FullHeaderBody />
 		<HeaderCarousel />
 	</section>
 }

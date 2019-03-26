@@ -10,8 +10,9 @@ $body-background-color: $off-white;
 
 
 .header-container {
-	background-color: $primary;
 	.header-navigation {
+    z-index: 100;
+    background-color: $primary;
 		.header-link {
 			color: $off-white;
 			font-weight: bold;
@@ -41,33 +42,44 @@ $body-background-color: $off-white;
 	}
 
 	&.header-full {
-		height: 100vh;
-		overflow: hidden;
-		.header-body {
-			z-index: 10;
-		}
-		.header-carousel {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-		}
+    height: 100vh;
+    overflow: hidden;
+    .header-body {
+      z-index: 10;
+    }
+    .header-carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
 
-		.header-carousel-overlay {
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			z-index: 9;
-			height: 100%;
-			width: 100%;
-			background-image: radial-gradient(
-			ellipse farthest-corner at right bottom,
-			transparent 10%,
-			$primary 80%);
-		}
+    .header-carousel-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 9;
+      height: 100%;
+      width: 100%;
+      background-color: $primary;
+      opacity: 0.6;
+    }
+
+    .header-body {
+      .buttons {
+        a { 
+          margin: 30px 10px;
+          padding: 20px 40px;
+          background-color: transparent;
+          color: #FFFFFF;
+          border: 2px solid #FFFFFF;
+          border-radius: 100px;
+        }
+      }
+    }
 	}
 
 	&.header-short {
