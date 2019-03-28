@@ -5,6 +5,12 @@ module.exports = {
     author: `@phillc`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-4379922-8",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-sass',
@@ -12,7 +18,7 @@ module.exports = {
         postCssPlugins: [require('autoprefixer')]
       }
     },
-		'gatsby-transformer-remark',
+    'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,20 +41,20 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-		{
-			resolve: `gatsby-plugin-manifest`,
-			options: {
-				name: `South Jersey Disc Golf`,
-				short_name: `SJDG`,
-				start_url: `/`,
-				background_color: `#FAF6FC`,
-				theme_color: `#76B073`,
-				// Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-				// see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-				display: `standalone`,
-				icon: `src/images/icon.png`, // This path is relative to the root of the site.
-			},
-		},
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `South Jersey Disc Golf`,
+        short_name: `SJDG`,
+        start_url: `/`,
+        background_color: `#FAF6FC`,
+        theme_color: `#76B073`,
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: `standalone`,
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
