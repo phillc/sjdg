@@ -1,16 +1,15 @@
 ---
 name: Constitution
-sort: 2
 public: false
+sort: 2
 ---
-
 # Mea et sua
 
 ## Veri apud inferias
 
-Lorem markdownum referat fuerat *pugnantemque* fulmen circumvelatur vivaque
+Lorem markdownum referat fuerat 222_pugnantemque_ fulmen circumvelatur vivaque
 facta causas rigidos ramaliaque fratrem regione iungit saniem causa longo. Et
-lacrimis *oculos*, viam rogabo dryades Hecaten periit, utrumque mecum tota
+lacrimis _oculos_, viam rogabo dryades Hecaten periit, utrumque mecum tota
 quisve vixque et iamque. Ferre siste unum bimari Acheloiadumque raptores non
 trahar, hoc causam deus populante quidem. Admiratur Capys nivosos revelli
 addidit natorum quae temone corpora: arduus Marmaridae vento. Tenus Cytherea sed
@@ -19,7 +18,7 @@ tenebas et Aglauros, ab stetimus successu gratantur terraeque undis, portus haec
 
 > Et rates **porrigit in** oculos quoque; tua videri misit errorem parentes
 > visus, ille fata, vinci stillanti membris. Patres cumque coepere saucius
-> annoso in ardor pervenit tibi nobis *tinus oculis negat* lupo quae amicitur?
+> annoso in ardor pervenit tibi nobis _tinus oculis negat_ lupo quae amicitur?
 > Utrique obstat laedor utve tardus spes nec cortice ortos sed incurvis solet.
 > Formae onus deum corpora limen erat vocandus, temone Aiax illa merui. Stupet
 > missum virgineos vehebat spreta vergit potita ad seniles culpetne redeat.
@@ -43,12 +42,12 @@ In **misit ardetque minor** turba simillimus multa, ne velamina edere **umbras
 vectus consistere** te ille. Ambas sibi honore nascendi tecum, et profecto
 vestibus omnia relinquo edita somno.
 
-- Garrula quoniam at ut cervus Venus surgit
-- Agyrtes cantu
-- Addiderat et metior sacrificat negare
-- Ponitur postquam forma
-- Quaere es terra atque Helicon aequora et
-- Fugiunt pedes Hesperium dixit qua ad hora
+* Garrula quoniam at ut cervus Venus surgit
+* Agyrtes cantu
+* Addiderat et metior sacrificat negare
+* Ponitur postquam forma
+* Quaere es terra atque Helicon aequora et
+* Fugiunt pedes Hesperium dixit qua ad hora
 
 ## Quos sed tibi
 
@@ -62,5 +61,5 @@ sermone thalamoque manentem sidera quibus!
 Rore crevit. Violenta vocabant es Olympum hostes excepto cuspide eritque, quoque
 sepulta in numero, non. Dum puppimque incursu deque iacta digna vultu per
 antiquus, **volucres** mediis, illos vincis, nepotem et. Figit montibus artes
-*praebebat relictis tantos* conamine mutantur! Et noctis Pirithous, fluctus
+_praebebat relictis tantos_ conamine mutantur! Et noctis Pirithous, fluctus
 campoque quia regale, iam fit crudelis unda in illa admonuit quaeque moles.
