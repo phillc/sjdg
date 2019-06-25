@@ -19,6 +19,7 @@ collections:
     identifier_field: name
     fields:
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Address", name: "address", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Public", name: "public", widget: "boolean", default: false, required: false}
       - {label: "Sort", name: "sort", widget: "number", default: 99}
