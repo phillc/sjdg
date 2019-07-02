@@ -1,7 +1,10 @@
 ---
 name: Stafford Woods
-sort: 2
+address: |-
+  2201 E Evesham Rd
+  Voorhees Township, NJ 08043
 public: false
+sort: 2
 ---
 
 # Indicii solum quo adyto rutilos puella quam
