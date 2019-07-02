@@ -1,7 +1,10 @@
 ---
 name: Doc Cramer
-sort: 2
+address: |-
+  1000 McKinley Ave
+  Stafford Township, NJ 08050
 public: false
+sort: 2
 ---
 
 # Mea et sua
