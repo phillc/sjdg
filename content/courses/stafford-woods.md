@@ -3,7 +3,7 @@ name: Stafford Woods
 address: |-
   2201 E Evesham Rd
   Voorhees Township, NJ 08043
-public: false
+public: true
 sort: 2
 ---
 

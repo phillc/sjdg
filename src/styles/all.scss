@@ -10,39 +10,48 @@ $body-background-color: $off-white;
 
 
 .header-container {
-	.header-navigation {
+  .header-navigation {
     z-index: 100;
     background-color: $primary;
-		.header-link {
-			color: $off-white;
-			font-weight: bold;
+    .header-link {
+      color: $off-white;
+      font-weight: bold;
 
-			&:hover {
-				background-color: inherit;
-				color: $accent-off;
-			}
-			&.header-link-active {
-				color: $accent-highlight;
-			}
-		}
+      &:hover {
+        background-color: inherit;
+        color: $accent-off;
+      }
+      &.header-link-active {
+        color: $accent-highlight;
+      }
+    }
 
 
-		.header-navigation-logo {
-			margin: 0 10px;
-		}
-		h1 {
-			font-weight: bold;
-			color: $off-white;
-		}
-	}
+    .header-navigation-logo {
+      margin: 0 10px;
+    }
+    h1 {
+      font-weight: bold;
+      color: $off-white;
+    }
+  }
 
-	.header-logo {
-		max-height: 50vh;
-		max-width: 25%;
-	}
+  .header-logo {
+    max-height: 50vh;
+    max-width: 25%;
+  }
 
-	&.header-full {
+  &.header-full {
     height: 100vh;
+  }
+
+  &.header-short {
+    height: 35vh;
+    margin-bottom: 0.75rem;
+  }
+
+  &.header-full, &.header-short {
+    position: relative;
     overflow: hidden;
     .header-body {
       z-index: 10;
@@ -70,7 +79,7 @@ $body-background-color: $off-white;
 
     .header-body {
       .buttons {
-        a { 
+        a {
           margin: 30px 10px;
           padding: 20px 40px;
           background-color: transparent;
@@ -80,32 +89,23 @@ $body-background-color: $off-white;
         }
       }
     }
-	}
+  }
 
-	&.header-short {
-	}
+  &.header-short {
+  }
+
+  .navbar-brand h1 {
+    padding-left: 0.5rem;
+    font-weight: bold;
+  }
+
+  /* .header-navigation-logo { */
+  /*   img { */
+  /*     height: 35vh; */
+  /*     width: auto; */
+  /*   } */
+  /* } */
 }
-
-//.navbar-brand h1 {
-//padding-left: 0.5rem;
-//font-weight: bold;
-//}
-
-//.header-logo {
-//img {
-//height: 35vh;
-//width: auto;
-//}
-//}
-
-//.colored-section {
-//border-top: 25px solid $grey;
-//padding-top: 5rem;
-//padding-bottom: 5rem;
-//min-height: 65vh;
-
-//h2 {
-//}
 
 //.section-main {
 //border-left: 4px solid $blue;

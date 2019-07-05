@@ -9,7 +9,7 @@ const dash = (string) =>
 	string.replace(/\s+/g, '-').toLowerCase()
 
 export default ({data}) => {
-	if (data.allMarkdownRemark) {
+	if (data.allMarkdownRemark.edges.length) {
 		let edges = data.allMarkdownRemark.edges
 		let headers = edges.reduce((acc, edge) => {
 			let sectionTitle = edge.node.frontmatter.title
