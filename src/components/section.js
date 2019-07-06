@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default ({id, title, children}) =>
   <section id={id}>
