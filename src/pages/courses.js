@@ -13,9 +13,6 @@ class CoursePin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {hovering: false};
-
-    // this.handleMouseEnter = this.handleMouseEnter.bind(this);
-    // this.handleMouseLeave = this.handleMouseLeave.bind(this);
   }
   handleMouseEnter = () => {
     this.setState({hovering: true});
@@ -81,11 +78,13 @@ class CourseMap extends React.Component  {
       let courses = edges.map(edge => {
         let name = edge.node.frontmatter.name;
         let id = dash(name);
-        let latLong = edge.node.frontmatter.latlong;
-        return { id: id, name: name, latlong: latLong };
+        let {latlong, address} = edge.node.frontmatter;
+        return { id: id,
+                 name: name,
+                 latlong: latlong,
+                 address: address};
       });
       let sections = courses.map(course => {
-        console.log("?:", course)
         return (
           <Section id={course.id} title={course.name} key={course.id}>
             <div>{course.address}</div>
