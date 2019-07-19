@@ -97,52 +97,37 @@ $body-background-color: $off-white;
     padding-left: 0.5rem;
     font-weight: bold;
   }
-
-  /* .header-navigation-logo { */
-  /*   img { */
-  /*     height: 35vh; */
-  /*     width: auto; */
-  /*   } */
-  /* } */
 }
 
-//.section-main {
-//border-left: 4px solid $blue;
-//padding-left: 2rem;
-
-//p {
-//padding-bottom: 2rem;
-//}
-//}
-//}
-//.colored-section-1 {
-//background-image: linear-gradient(165deg, $cyan 44%, $blue 110%);
-//border-top: 25px solid $grey;
-//min-height: 50vh;
-//color: #FFF;
-//}
-//.colored-section-2 {
-//background-image: linear-gradient(165deg, $blue 44%, $cyan 110%);
-//border-top: 25px solid $grey;
-//min-height: 50vh;
-//color: #FFF;
-//}
+.section-main {
+  border-bottom: 4px solid $grey;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 40vh;
+}
 
 .courses-page {
   .course-pin {
-    $width: 40px;
-    $height: 40px;
+    $size: 40px;
 
     position: absolute;
-    width: $width;
-    height: $height;
-    transform: 'translate(-50%, -50%)';
+    width: $size;
+    height: $size;
+    left: -$size/2;
+    top: -$size/2;
     border: 5px solid $accent-highlight;
-    border-radius: $height;
+    border-radius: $size;
     background-color: $primary;
     text-align: center;
-    color: blue;
-    font-weight: bold;
     padding: 4px;
+
+    .course-pin-logo {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .course-address {
+    white-space: pre-line;
   }
 }

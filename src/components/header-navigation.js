@@ -65,7 +65,7 @@ export default class HeaderNavigation extends React.Component {
               <div className="navbar-end">
                 <NavBarLink to="/">Home</NavBarLink>
                 {/*<NavBarLink to="/about">About</NavBarLink>*/}
-                {/*<NavBarLink to="/courses">Courses</NavBarLink>*/}
+                <NavBarLink to="/courses">Courses</NavBarLink>
                 {/*<NavBarLink to="/events">Events</NavBarLink>*/}
                 {/*<NavBarLink to="/contact">Contact</NavBarLink>*/}
               </div>
