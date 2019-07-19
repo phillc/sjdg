@@ -22,7 +22,7 @@ class CoursePin extends React.Component {
           query {
             logo: file(relativePath: { eq: "logo.png" }) {
               childImageSharp {
-                fixed(width: 400) {
+                fixed(width: 40) {
                   ...GatsbyImageSharpFixed
                 }
               }
