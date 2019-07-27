@@ -7,46 +7,14 @@ latlong: '39.861848, -74.970652'
 public: true
 sort: 2
 ---
+Stafford is regarded by many as the gem of South Jersey. The reason for its pristine look is due to thousands of hours put in the by dozens of volunteers over the last few years. It started as nine holes in 2012, and expanded to the full 18 by the following year.
 
-# Indicii solum quo adyto rutilos puella quam
+The local crew is never happy with the status quo and thus raise the bar of expectations every year. Consistent and dedicated efforts have achieved paver tee pads on both long and short positions throughout. Stone benches have been erected on half the course. And the environment is saved by erosion control techniques that are both artistic and challenging (see the greens for Hole 6 and 15).
 
-## Meorum ut quo ferebat manus demunt
+The history of Stafford grew in 2018 when it was host to the first ever PDGA A-Tier tournament to be held in New Jersey. The course never looked better and the touring professionals, including the reigning World Champion, were impressed.
 
-Lorem markdownum *coegit pars* nominis nate eras, quam de viae simus! Et
-aglauros adclivis desilit carmina Alastoraque, vittas exsiluere. Haec molle,
-munere quam heu inde, more nam saevior nota paruit pelle est praebere vagitus,
-Lelegeia.
+https://www.youtube.com/watch?v=B_2kQK8uUfE
 
-*Aries aeternus* fulvis [dicere](http://meisnon.net/corpore.aspx), moverat
-credulus haec Hesperiae tigres revocatus pulchra. Sub media mox omni ademptam
-precor constitit remorum tenebat linguae deprenderat *reparatque eunt
-quamcumque* ne nequeam!
+For some nostalgic perspective, see the footage here of the course in its early days.
 
-## Peloro vagantem vagata tangam Lycetum inde
-
-Tuens et ratis genetrix Ulixe pallorem quis plura culpavit Liberfemineae, post
-sinit, tellure illa. Est *ilia*, quantaque oblitus ossa, inde pax cunctis manu
-fossas docebo. Cupressu devenit aequore sumere est avis sanguineis transit
-mergit, avertens et tamen erat dum Herculis visu culpam satus. Et Ecce arma
-digitos fraterni auras securim [tanto](http://traherent-et.com/fatishaemonii),
-enim natam navita.
-
-Sibi talia adloquitur matre Oriente videri gestamina tinguamus gentes ipso.
-Vestigia cognita harenam flosque sus. Restabam videres a *concidere canis*. Alta
-ubi; *pharetra* succedere *semine* hausit, auro nudae utque, laniger.
-
-## Oculos cava ipse ripa vocibus
-
-Est sidere de viscera incubat Manto sacrorum ponit exceptas ipsi. Aper illa
-perque; dea de acciperet rubori, rudis avem. Nec pars restitit novus Pallade
-gaudet conlapsa rerum nec suaque; ducta stagnumque iterum.
-
-Auribus liquitur nec fervidus avus: nec erat dum, puer, inmota Ulixes? Magno
-Idas vosne **ostendunt danda** pharetratae Sicula formam reppulit portus. Oculos
-potiere sed Orpheus non vino religaret in colunt, pars fronte lignum mille et
-frustra puellis. Colat temptabat placare pontus ars conpagine. Fueris regem
-nulloque vivunt, factum dolentius pariter.
-
-Sustinet semimarem pater. Puro est aequore spatiis. Nisi gravem satam missus
-penetrabit doluisse o non currus forma mihi, haud pectore carmine. Ducemque
-tangam, subitae, delabere, conticuere sine parenti origo.
+https://www.youtube.com/watch?v=2lFn-PG9IyM
