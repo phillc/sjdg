@@ -10,6 +10,7 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body File", name: "body_pdf", widget: "file" }
       - {label: "Public", name: "public", widget: "boolean", default: false, required: false}
       - {label: "Sort", name: "sort", widget: "number", default: 99}
   - label: "courses"
