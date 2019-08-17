@@ -1,5 +1,6 @@
 ---
 name: Constitution
+body_pdf: /uploads/sjdg-constitution-2014-01.pdf
 public: false
 sort: 2
 ---
