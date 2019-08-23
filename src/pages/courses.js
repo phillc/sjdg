@@ -42,8 +42,8 @@ class Courses extends React.Component  {
         <Layout title="Courses">
           <Header />
           <div className="container">
-            <div className="columns">
-              <div className="column">
+            <div className="columns is-centered">
+              <div className="column is-two-fifths">
                 {sections}
               </div>
               <div className="column is-two-fifths">

@@ -1,10 +1,11 @@
 ---
 name: Constitution
 body_pdf: /uploads/sjdg-constitution-2014-01.pdf
-public: false
+public: true
 sort: 2
 ---
 # NAME AND DEFINITION:
+
 The name of the organization is the South Jersey Disc Golfers, and its abbreviated title is SJDG. The SJDG Secretary will maintain the official address of the SJDG.
 
 The SJDG is a Disc Sports Player’s Organization and it is open to all people who wish to participate in Disc Sports in southern New Jersey, regardless of race, creed, gender, nationality, religion, age, sexual preference, political affiliation, or any other characteristic protected by any federal, state, or local laws.
