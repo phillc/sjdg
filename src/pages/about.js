@@ -5,25 +5,33 @@ import Layout from '../components/layout'
 import Header from '../components/header'
 import Section from '../components/section'
 
-import dash from '../utils/dash';
-
 class About extends React.Component {
   aboutSections() {
-    let edges = this.props.data.allMarkdownRemark.edges
+    const edges = this.props.data.allMarkdownRemark.edges
     return edges.map(edge => {
       return { name: edge.node.frontmatter.name,
-               html: edge.node.html }
+               html: edge.node.html,
+               bodyPdf: edge.node.frontmatter.body_pdf }
     });
   }
 
   render() {
-    let aboutSections = this.aboutSections();
+    const aboutSections = this.aboutSections();
     if (aboutSections.length) {
       let sections = aboutSections.map(aboutSection => {
+        let download = '';
+        let bodyPdf = aboutSection.bodyPdf;
+        if (bodyPdf) {
+          download = (
+            <p>
+              <a href={bodyPdf} className="button is-primary">Download PDF</a>
+            </p>
+          );
+        }
         return (
           <Section id={aboutSection.id} title={aboutSection.name} key={aboutSection.id}>
             <div dangerouslySetInnerHTML={{ __html: aboutSection.html }}></div>
-            {aboutSection.body_pdf}
+            {download}
           </Section>
         );
       });

@@ -55,14 +55,14 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        develop: true,
-        whitelistPatterns: [/-page$/]
-      }
+    // {
+    //   resolve: 'gatsby-plugin-purgecss',
+    //   options: {
+    //     develop: false,
+    //     whitelistPatterns: [/-page$/]
+    //   }
 
-    }, // must be after other CSS plugins
+    // }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
