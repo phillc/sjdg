@@ -4,13 +4,13 @@ body_pdf: /uploads/sjdg-constitution-2014-01.pdf
 public: true
 sort: 2
 ---
-# NAME AND DEFINITION:
+# Name and Definition:
 
 The name of the organization is the South Jersey Disc Golfers, and its abbreviated title is SJDG. The SJDG Secretary will maintain the official address of the SJDG.
 
 The SJDG is a Disc Sports Player’s Organization and it is open to all people who wish to participate in Disc Sports in southern New Jersey, regardless of race, creed, gender, nationality, religion, age, sexual preference, political affiliation, or any other characteristic protected by any federal, state, or local laws.
 
-# PURPOSES AND GOALS:
+# Purposes and Goals:
 
 - To organize and promote disc golf and disc sports within the State of NJ. To develop leaders and advocates in disc golf and disc sports and work towards an ever-growing player and Membership base through direct activity of Membership and Directors.
 - To maintain an organizational framework for representative government of the Members via popularly elected Executive Committee.

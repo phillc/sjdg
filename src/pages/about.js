@@ -30,7 +30,9 @@ class About extends React.Component {
         }
         return (
           <Section id={aboutSection.id} title={aboutSection.name} key={aboutSection.id}>
-            <div dangerouslySetInnerHTML={{ __html: aboutSection.html }}></div>
+            <article>
+              <div className="content" dangerouslySetInnerHTML={{ __html: aboutSection.html }}></div>
+            </article>
             {download}
           </Section>
         );

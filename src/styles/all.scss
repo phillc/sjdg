@@ -96,14 +96,14 @@ $body-background-color: $off-white;
   }
 }
 
-.section-main {
-  border-bottom: 2px solid $accent-off;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  min-height: 20vh;
-}
-
 .courses-page {
+  .section-main {
+    border-bottom: 2px solid $accent-off;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 20vh;
+  }
+
   .course-pin {
     $size: 40px;
 
@@ -126,5 +126,11 @@ $body-background-color: $off-white;
 
   .course-address {
     white-space: pre-line;
+  }
+}
+
+.about-page {
+  article {
+    h1 { font-size: 1.25em; }
   }
 }
